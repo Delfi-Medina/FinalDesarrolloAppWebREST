@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}|Gastos.API\\Gastos.API.csproj|c:\\users\\usuario\\source\\repos\\finaldesarrolloappwebrest\\gastos.api\\gastos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}|Gastos.API\\Gastos.API.csproj|solutionrelative:gastos.api\\gastos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}|Gastos.API\\Gastos.API.csproj|c:\\users\\usuario\\source\\repos\\finaldesarrolloappwebrest\\gastos.api\\gastos.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}|Gastos.API\\Gastos.API.csproj|solutionrelative:gastos.api\\gastos.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gastos.API.http",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.API\\Gastos.API.http",
+              "RelativeDocumentMoniker": "Gastos.API\\Gastos.API.http",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.API\\Gastos.API.http",
+              "RelativeToolTip": "Gastos.API\\Gastos.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-15T20:25:27.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gastos.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.API\\Gastos.API.csproj",
+              "RelativeDocumentMoniker": "Gastos.API\\Gastos.API.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.API\\Gastos.API.csproj",
+              "RelativeToolTip": "Gastos.API\\Gastos.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T20:18:13.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

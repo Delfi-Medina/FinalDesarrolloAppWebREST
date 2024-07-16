@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gastos.API", "Gastos.API\Gastos.API.csproj", "{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gastos.MVC", "Gastos.MVC\Gastos.MVC.csproj", "{71D5687B-FB51-4727-853A-B4459CE7CD25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A701135B-88C3-4E34-AEAB-2AC9070A5EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D5687B-FB51-4727-853A-B4459CE7CD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D5687B-FB51-4727-853A-B4459CE7CD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D5687B-FB51-4727-853A-B4459CE7CD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D5687B-FB51-4727-853A-B4459CE7CD25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F62618E-E8AC-483B-AA12-35D56713EE03}
+	EndGlobalSection
+EndGlobal
