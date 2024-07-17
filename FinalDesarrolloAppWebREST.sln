@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gastos.API", "Gastos.API\Ga
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gastos.MVC", "Gastos.MVC\Gastos.MVC.csproj", "{71D5687B-FB51-4727-853A-B4459CE7CD25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{03F9F31F-A3DA-45DC-8B5B-6987C0FBC461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gastos.Data", "Data\Gastos.Data.csproj", "{03F9F31F-A3DA-45DC-8B5B-6987C0FBC461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
