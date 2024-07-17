@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Usuario/source/repos/FinalDesarrolloAppWebREST/Gastos.MVC/Views/Gastos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/source/repos/FinalDesarrolloAppWebREST/Gastos.MVC/Views/Gastos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/source/repos/FinalDesarrolloAppWebREST/Gastos.MVC/Views/Gastos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/source/repos/FinalDesarrolloAppWebREST/Gastos.MVC/Views/Gastos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/source/repos/FinalDesarrolloAppWebREST/Gastos.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

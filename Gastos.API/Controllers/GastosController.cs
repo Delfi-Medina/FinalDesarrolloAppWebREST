@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Gastos.API.Data;
-using Gastos.API.Modelo;
+using Data;
+using Modelo;
+
+
 
 namespace Gastos.API.Controllers
 {
@@ -14,95 +16,51 @@ namespace Gastos.API.Controllers
     [ApiController]
     public class GastosController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly GastoRepositorio _gastoRepositorio;
 
-        public GastosController(AppDbContext context)
+        public GastosController(GastoRepositorio gastoRepositorio)
         {
-            _context = context;
+            _gastoRepositorio = gastoRepositorio;
         }
 
-        // GET: api/Gastos
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Gasto>>> GetGastos()
+        public async Task<ActionResult<IEnumerable<GastoDTO>>> GetGastos()
         {
-            return await _context.Gastos.ToListAsync();
+            var gastos = await _gastoRepositorio.ObtenerTodosLosGastos();
+            return Ok(gastos);
         }
 
-        // GET: api/Gastos/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Gasto>> GetGasto(int id)
+        public async Task<ActionResult<GastoDTO>> GetGasto(int id)
         {
-            var gasto = await _context.Gastos.FindAsync(id);
-
-            if (gasto == null)
-            {
-                return NotFound();
-            }
-
-            return gasto;
+            var gasto = await _gastoRepositorio.ObtenerGastoPorId(id);
+            if (gasto == null) return NotFound();
+            return Ok(gasto);
         }
 
-        // PUT: api/Gastos/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutGasto(int id, Gasto gasto)
+        [HttpPost]
+        public async Task<ActionResult> PostGasto(GastoDTO gasto)
         {
-            if (id != gasto.Id)
-            {
-                return BadRequest();
-            }
+            await _gastoRepositorio.AgregarGasto(gasto);
+            return CreatedAtAction(nameof(GetGasto), new { id = gasto.Id }, gasto);
+        }
 
-            _context.Entry(gasto).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!GastoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutGasto(int id, GastoDTO gasto)
+        {
+            if (id != gasto.Id) return BadRequest();
+            await _gastoRepositorio.ActualizarGasto(gasto);
             return NoContent();
         }
 
-        // POST: api/Gastos
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Gasto>> PostGasto(Gasto gasto)
-        {
-            _context.Gastos.Add(gasto);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetGasto", new { id = gasto.Id }, gasto);
-        }
-
-        // DELETE: api/Gastos/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGasto(int id)
         {
-            var gasto = await _context.Gastos.FindAsync(id);
-            if (gasto == null)
-            {
-                return NotFound();
-            }
-
-            _context.Gastos.Remove(gasto);
-            await _context.SaveChangesAsync();
-
+            var gasto = await _gastoRepositorio.ObtenerGastoPorId(id);
+            if (gasto == null) return NotFound();
+            await _gastoRepositorio.EliminarGasto(id);
             return NoContent();
-        }
-
-        private bool GastoExists(int id)
-        {
-            return _context.Gastos.Any(e => e.Id == id);
         }
     }
 }
+

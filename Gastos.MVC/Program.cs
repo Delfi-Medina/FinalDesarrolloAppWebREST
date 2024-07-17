@@ -1,8 +1,17 @@
+using Data;
+using Gastos.MVC.Controllers;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<AppDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddHttpClient<GastosController>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7037/api/Gastos"); // URL base de la API
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
