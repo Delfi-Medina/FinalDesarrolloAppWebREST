@@ -30,19 +30,19 @@ jobs:
         run: dotnet restore
 
       - name: Build Gastos.API
-        run: dotnet build --no-restore --configuration Release --project Gastos.API/Gastos.API.csproj
+        run: dotnet build --no-restore --configuration Release Gastos.API/Gastos.API.csproj
 
       - name: Build Gastos.MVC
-        run: dotnet build --no-restore --configuration Release --project Gastos.MVC/Gastos.MVC.csproj
+        run: dotnet build --no-restore --configuration Release Gastos.MVC/Gastos.MVC.csproj
 
       - name: Build Gastos.Data
-        run: dotnet build --no-restore --configuration Release --project Gastos.Data/Gastos.Data.csproj
+        run: dotnet build --no-restore --configuration Release Gastos.Data/Gastos.Data.csproj
 
       - name: Test Gastos.API
-        run: dotnet test --no-build --verbosity normal --project Gastos.API/Gastos.API.csproj
+        run: dotnet test --no-build --verbosity normal Gastos.API/Gastos.API.csproj
 
       - name: Test Gastos.MVC
-        run: dotnet test --no-build --verbosity normal --project Gastos.MVC/Gastos.MVC.csproj
+        run: dotnet test --no-build --verbosity normal Gastos.MVC/Gastos.MVC.csproj
 
   deploy:
     name: Deploy to Production
