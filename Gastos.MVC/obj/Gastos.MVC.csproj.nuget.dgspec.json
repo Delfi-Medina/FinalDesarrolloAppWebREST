@@ -4,14 +4,14 @@
     "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.MVC\\Gastos.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj",
         "projectName": "Gastos.Data",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj"
+              "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj"
               }
             }
           }

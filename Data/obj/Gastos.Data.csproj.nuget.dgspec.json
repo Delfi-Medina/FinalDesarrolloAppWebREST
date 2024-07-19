@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj",
         "projectName": "Gastos.Data",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

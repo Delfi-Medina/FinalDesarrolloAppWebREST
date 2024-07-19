@@ -2756,8 +2756,8 @@
     },
     "Gastos.Data/1.0.0": {
       "type": "project",
-      "path": "../Data/Gastos.Data.csproj",
-      "msbuildProject": "../Data/Gastos.Data.csproj"
+      "path": "../Gastos.Data/Gastos.Data.csproj",
+      "msbuildProject": "../Gastos.Data/Gastos.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2794,8 +2794,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Data\\Gastos.Data.csproj"
+            "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\FinalDesarrolloAppWebREST\\Gastos.Data\\Gastos.Data.csproj"
             }
           }
         }

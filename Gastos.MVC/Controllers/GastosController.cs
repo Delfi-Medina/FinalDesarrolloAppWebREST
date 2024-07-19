@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Modelo;
 
+
 namespace Gastos.MVC.Controllers
 {
     public class GastosController : Controller
@@ -40,7 +41,10 @@ namespace Gastos.MVC.Controllers
         // GET: Gastos/Create
         public IActionResult Create()
         {
-            var gasto = new GastoDTO();
+            var gasto = new GastoDTO()
+            {
+                Fecha = DateTime.Today
+            };
             return View(gasto);
         }
 
@@ -52,6 +56,10 @@ namespace Gastos.MVC.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (gasto.Fecha == DateTime.MinValue)
+                {
+                    gasto.Fecha = DateTime.Today; 
+                }
                 var response = await _httpClient.PostAsJsonAsync("", gasto);
                 if (!response.IsSuccessStatusCode)
                 {
@@ -88,6 +96,10 @@ namespace Gastos.MVC.Controllers
 
             if (ModelState.IsValid)
             {
+                if (gasto.Fecha == DateTime.MinValue)
+                {
+                    gasto.Fecha = DateTime.Today; 
+                }
                 var response = await _httpClient.PutAsJsonAsync($"{id}", gasto);
                 if (!response.IsSuccessStatusCode)
                 {
@@ -98,16 +110,17 @@ namespace Gastos.MVC.Controllers
             return View(gasto);
         }
 
-        // GET: Gastos/Delete/5
+        // POST: Gastos/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            var response = await _httpClient.GetAsync($"{id}");
+            var response = await _httpClient.DeleteAsync($"{id}");
             if (!response.IsSuccessStatusCode)
             {
-                return NotFound("Gasto no encontrado.");
+                return StatusCode((int)response.StatusCode, "Error al eliminar el gasto.");
             }
-            var gasto = await response.Content.ReadFromJsonAsync<GastoDTO>();
-            return View(gasto);
+            return RedirectToAction(nameof(Index));
         }
 
     }

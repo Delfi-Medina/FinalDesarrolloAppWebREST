@@ -11,3 +11,16 @@ C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Data\obj\Debug\net8.0\Ga
 C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Data\obj\Debug\net8.0\refint\Gastos.Data.dll
 C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Data\obj\Debug\net8.0\Gastos.Data.pdb
 C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Data\obj\Debug\net8.0\ref\Gastos.Data.dll
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\bin\Debug\net8.0\Gastos.Data.deps.json
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\bin\Debug\net8.0\Gastos.Data.dll
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\bin\Debug\net8.0\Gastos.Data.pdb
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.sourcelink.json
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.dll
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\refint\Gastos.Data.dll
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\Gastos.Data.pdb
+C:\Users\Usuario\source\repos\FinalDesarrolloAppWebREST\Gastos.Data\obj\Debug\net8.0\ref\Gastos.Data.dll
